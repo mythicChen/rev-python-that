@@ -176,7 +176,8 @@ def decrypt_file(encrypted_file, output_file, key, version="v1"):
     except Exception as e:
         print(f"[!] Decryption error: {str(e)}")
         return False
-
+#https://pastebin.com/bQ6MKJ2j
+#link to my struggles, for intended eyes only
 def main():
     print("=" * 60)
     print("RansomwareX Analysis and Decryption Tool")
